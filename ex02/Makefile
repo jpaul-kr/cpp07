@@ -3,7 +3,7 @@ CC = c++ -std=c++98
 CFLAGS = -Wall -Werror -Wextra -fsanitize=address
 RM = rm -rf
 
-SRC = main.cpp Array.cpp
+SRC = main.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
