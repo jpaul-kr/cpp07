@@ -1,4 +1,4 @@
-NAME = converter
+NAME = template
 CC = c++ -std=c++98
 CFLAGS = -Wall -Werror -Wextra -fsanitize=address
 RM = rm -rf
