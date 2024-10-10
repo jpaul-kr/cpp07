@@ -10,7 +10,7 @@ int	main()
 		std::cout << array[i] << " ";
 	std::cout << std::endl;
 	std::cout << "new array: ";
-	iter(array, 5, iterate<int>);
+	iter(array, 5, iterate);
 	for (int i = 0; i < 5; i++)
 		std::cout << array[i] << " ";
 	std::cout << std::endl;

@@ -4,8 +4,8 @@
 
 using std::string;
 
-template<typename T, size_t L, typename F>
-void	iter(T	(&arr)[L], size_t len, F func)
+template<typename T, size_t L>
+void	iter(T	(&arr)[L], size_t len, void (*func)(T&))
 {
 	for(size_t i = 0; i < len; i++)
 		func(arr[i]);
